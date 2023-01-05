@@ -1,7 +1,9 @@
+import { UserRoles } from "src/shared/types/userRoles"
+
 export class CreateUserDto {
-    readonly username: string
-    readonly password: string
-    readonly email: string
-    readonly phone?: string
-    readonly role: UserRoles = 'USER'
+    username: string
+    password: string
+    email: string
+    phone?: string
+    role: UserRoles = 'USER'
 }
